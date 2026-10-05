@@ -1,0 +1,21 @@
+현재 이슈가 있음!!!
+
+어떤 이슈가 있냐면, feature/zero -> feature/mul -> feature/div
+
+이걸 하면서, 현재 내 워킹 디렉토리에서 작업을 하다보니, feature/div에 모든 변경사항이 적용되어서, zero에서 만든 거, mul에서 만든 거가 다 삭제되었습니다!
+
+이걸 해결하려면 어떻게 해야될까요????
+
+lib/zero.py
+lib/mul.py
+lib/div.py
+
+를 만들었었는데, 현재 feature/div 브랜치에서, lib/zero.py랑 lib/mul.py를 지워서 현재 develop branch에는 이 파일들이 없는 상태이다...!
+
+그래서 뭘 해야하느냐?
+
+=> 현재 상태까지 모두 만드시면 되구요, (branch 상태 commit 내역)
+
+=> 현재 lib/zero.py랑 lib/mul.py가 없는데, 이거 commit 5번 이하로, lib/zero.pydhk lib/mul.py파일을 develop branch로 넣으시면 됩니다!
+
+해당 내용을 적용한 git repo 주소를 제출하시면 됩니다!!
